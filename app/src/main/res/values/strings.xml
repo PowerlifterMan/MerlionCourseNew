@@ -2,4 +2,7 @@
     <string name="app_name">MerlionCourseNew</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_main_title">Главная</string>
+    <string name="menu_favorites_title">Избранное</string>
+    <string name="menu_profile_title">Аккаунт</string>
 </resources>

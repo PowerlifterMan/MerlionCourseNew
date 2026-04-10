@@ -21,6 +21,9 @@ converterKotlinxSerialization = "3.0.0"
 roomRuntime = "2.8.4"
 lifecycleExtensions = "2.2.0"
 lifecycleRuntimeKtx = "2.10.0"
+fragment = "1.8.9"
+navigationFragmentKtx = "2.9.7"
+navigationUiKtx = "2.9.7"
 
 
 [libraries]
@@ -47,6 +50,9 @@ androidx-hilt-work = { module = "androidx.hilt:hilt-work", version.ref = "hiltCo
 converter-kotlinx-serialization = { module = "com.squareup.retrofit2:converter-kotlinx-serialization", version.ref = "converterKotlinxSerialization" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions" }
+androidx-fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 
 
 [plugins]
