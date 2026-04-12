@@ -3,7 +3,18 @@
     <style name="Base.Theme.MerlionCourseNew" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimaryContainer">@color/darkGrey</item>
+        <item name="colorPrimary">@color/darkGrey</item>
+        <item name="colorPrimaryVariant">@color/darkGrey</item>
+        <item name="colorOnPrimary">@color/lightGrey</item>
     </style>
 
-    <style name="Theme.MerlionCourseNew" parent="Base.Theme.MerlionCourseNew" />
+    <style name="Theme.MerlionCourseNew" parent="Base.Theme.MerlionCourseNew">
+        <item name="colorPrimaryContainer">@color/darkGrey</item>
+        <item name="colorPrimary">@color/darkGrey</item>
+        <item name="colorPrimaryVariant">@color/darkGrey</item>
+        <item name="colorOnPrimary">@color/lightGrey</item>
+        <item name="android:windowBackground">@color/dark</item>
+        <item name="android:textColor">@color/lightGrey</item>
+    </style>
 </resources>

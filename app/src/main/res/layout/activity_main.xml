@@ -11,7 +11,6 @@
         android:id="@+id/frame_layout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/cardview_dark_background"
         app:layout_constraintBottom_toTopOf="@id/btm_navigation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +21,6 @@
             android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/design_default_color_on_primary"
             app:defaultNavHost="true"
             app:navGraph="@navigation/nav_graph" />
     </FrameLayout>
